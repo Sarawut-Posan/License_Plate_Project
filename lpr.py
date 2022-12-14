@@ -100,7 +100,6 @@ mycursor.execute(sql, val)
 mydb.commit()
 print(mycursor.rowcount, "record inserted.")
 
-'''
 # Open the file in append mode
 file = open("recognized.txt", "a")
 # Apply OCR on the cropped image
@@ -125,4 +124,3 @@ cv2.imshow("last", last)
 cv2.imshow("last_erode", last_erode)
 cv2.imshow("num1", num1)
 cv2.waitKey(0)
-'''

@@ -30,7 +30,7 @@ except:
 sorted_contours = sorted(contours, key=lambda ctr: cv2.boundingRect(ctr)[0])
 
 
-img = cv2.imread("/Users/pond/Desktop/FinalProject/Data/RealData/img1.JPG")
+img = cv2.imread("RealData/img1.JPG")
   
 # cv2.imread() -> takes an image as an input
 h, w, channels = img.shape
